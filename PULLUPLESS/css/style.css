@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,700');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: #212121;
+}
+nav p {
+  color: white;
+}
+nav ul,
+nav li {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -1%;
+}
+#supertitre {
+  background-color: #108bd9;
+  height: 600px;
+  text-align: center;
+  padding-top: 15%;
+  color: white;
+}
+#bellephrase {
+  display: flex;
+  justify-content: center;
+}
+#bellephrase strong {
+  color: #108bd9;
+}
+#bellephrase p {
+  color: #bdbdbd;
+}
+#telecharger {
+  background-color: #108bd9;
+  display: flex;
+}
+#telecharger img {
+  width: 20%;
+  height: auto;
+}
